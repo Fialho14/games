@@ -1,0 +1,17 @@
+name: macOS tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Swift and UI model tests
+        run: swift test
+      - name: Native engine tests
+        run: ./Scripts/test-native.sh
+      - name: Release bundle
+        run: ./Scripts/build-macos.sh

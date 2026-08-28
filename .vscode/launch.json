@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:games}/PuzzleGames",
+            "name": "Debug PuzzleGames (PuzzleGames)",
+            "target": "PuzzleGames",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug PuzzleGames (PuzzleGames)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:games}/PuzzleGames",
+            "name": "Release PuzzleGames (PuzzleGames)",
+            "target": "PuzzleGames",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release PuzzleGames (PuzzleGames)"
+        }
+    ]
+}
