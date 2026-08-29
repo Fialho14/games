@@ -1,0 +1,14 @@
+# SwiftPM and generated products
+.build/
+.swiftpm/
+Artifacts/
+.cache/
+*.o
+.DS_Store
+DerivedData/
+*.xcuserstate
+
+# Historical build outputs
+build/
+bin/
+Sudoku.app

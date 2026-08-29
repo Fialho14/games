@@ -1,0 +1,13 @@
+name: macOS tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test and verify the complete product
+        run: ./Scripts/check-project.sh --bundle

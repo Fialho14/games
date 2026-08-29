@@ -4,21 +4,21 @@
             "type": "swift",
             "request": "launch",
             "args": [],
-            "cwd": "${workspaceFolder:games}/PuzzleGames",
+            "cwd": "${workspaceFolder}",
             "name": "Debug PuzzleGames (PuzzleGames)",
             "target": "PuzzleGames",
             "configuration": "debug",
-            "preLaunchTask": "swift: Build Debug PuzzleGames (PuzzleGames)"
+            "preLaunchTask": "Swift: build"
         },
         {
             "type": "swift",
             "request": "launch",
             "args": [],
-            "cwd": "${workspaceFolder:games}/PuzzleGames",
+            "cwd": "${workspaceFolder}",
             "name": "Release PuzzleGames (PuzzleGames)",
             "target": "PuzzleGames",
             "configuration": "release",
-            "preLaunchTask": "swift: Build Release PuzzleGames (PuzzleGames)"
+            "preLaunchTask": "Swift: build"
         }
     ]
 }
